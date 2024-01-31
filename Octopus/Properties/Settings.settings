@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Octopus.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="apiBaseUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://dev-octopusapi.ntigra.com/</Value>
+    </Setting>
+    <Setting Name="validateRulesBaseUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://dev-powerdoc.ntigra.com:8080/</Value>
+    </Setting>
+    <Setting Name="authToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="appUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="appPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

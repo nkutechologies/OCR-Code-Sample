@@ -1,0 +1,711 @@
+{
+  "ReadingSection": [
+    {
+      "Section": "FetchChiefComplaint",
+      "Coordinates": {
+        "InitialX": 512,
+        "InitialY": 614
+      },
+      "ContextMenuActions": {
+        "InitialX": 520,
+        "InitialY": 635
+      },
+      "InitialThreadSleeper": {
+        "Halt": 2000
+      },
+      "FirstLeftClickDelay": {
+        "Halt": 500
+      },
+      "SecondLeftClickDelay": {
+        "Halt": 500
+      },
+      "DoubleClickDelay": {
+        "Halt": 500
+      },
+      "RightClickDelay": {
+        "Halt": 500
+      },
+      "ContextMenuDelay": {
+        "Halt": 500
+      },
+      "AfterCopyDelay": {
+        "Halt": 2000
+      }
+    },
+    {
+      "Section": "CloseObservation",
+      "Coordinates": {
+        "InitialX": 1183,
+        "InitialY": 101
+      },
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "DoubleClickDelay": {
+        "Halt": 100
+      }
+    },
+    {
+      "Section": "ClickOnComplain",
+      "Coordinates": {
+        "InitialX": 223,
+        "InitialY": 240
+      },
+      "InitialThreadSleeper": {
+        "Halt": 5000
+      },
+      "DoubleClickDelay": {
+        "Halt": 500
+      }
+    },
+    {
+      "Section": "ClickOnObservation",
+      "Coordinates": {
+        "InitialX": 682,
+        "InitialY": 350
+      },
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "DoubleClickDelay": {
+        "Halt": 500
+      }
+    },
+    {
+      "Section": "CloseSoapNotes",
+      "Coordinates": {
+        "InitialX": 1279,
+        "InitialY": 56
+      },
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "BeforeDoubleClickThreadSleeper": {
+        "Halt": 50
+      }
+    },
+    {
+      "Section": "FetchGender",
+      "Coordinates": {
+        "InitialX": 293,
+        "InitialY": 119
+      },
+      "Drag": {
+        "Distance": 30,
+        "SpeedOfDrag": 50,
+        "loopIncrementBy": 10
+      },
+      "InitialThreadSleeper": {
+        "Halt": 3000
+      },
+      "AfterDragSleep": {
+        "Halt": 500
+      },
+      "AfterCopySleep": {
+        "Halt": 2000
+      }
+    },
+    {
+      "Section": "ClickOnSoapNotes",
+      "Coordinates": {
+        "InitialX": 697,
+        "InitialY": 209
+      },
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      }
+    },
+    {
+      "Section": "ClickOnCeedValidation",
+      "Coordinates": {
+        "InitialX": 1077,
+        "InitialY": 253
+      },
+      "InitialThreadSleeper": {
+        "Halt": 1500
+      }
+    },
+    {
+      "Section": "ClickOnOtherActions",
+      "Coordinates": {
+        "InitialX": 1102,
+        "InitialY": 209
+      },
+      "InitialThreadSleeper": {
+        "Halt": 3000
+      }
+    },
+    {
+      "Section": "ClickOnFollowUp",
+      "Coordinates": {
+        "InitialX": 1002,
+        "InitialY": 272
+      },
+      "InitialThreadSleeper": {
+        "Halt": 50
+      }
+    },
+    {
+      "Section": "BookAppointment",
+      "Coordinates": {
+        "InitialX": 696,
+        "InitialY": 663
+      },
+      "InitialThreadSleeper": {
+        "Halt": 2000
+      }
+    },
+    {
+      "Section": "SelectOrder",
+      "Coordinates": {
+        "InitialX": 948,
+        "InitialY": 204
+      },
+      "InitialThreadSleeper": {
+        "Halt": 50
+      }
+    },
+    {
+      "Section": "CopyPayerTypeForInsurance",
+      "Coordinates": {
+        "InitialX": 923,
+        "InitialY": 247
+      },
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "CtrlADelay": {
+        "Halt": 500
+      },
+      "AfterCopyDelay": {
+        "Halt": 5000
+      }
+    },
+    {
+      "Section": "CloseFollowUpVisitForInsurance",
+      "Coordinates": {
+        "InitialX": 1133,
+        "InitialY": 209
+      },
+      "InitialThreadSleeper": {
+        "Halt": 50
+      }
+    },
+    {
+      "Section": "ClickOnViewXML",
+      "Coordinates": {
+        "InitialX": 1019,
+        "InitialY": 73
+      },
+      "InitialThreadSleeper": {
+        "Halt": 2000
+      },
+      "DoubleClickDelay": {
+        "Halt": 100
+      },
+      "AfterClickDelay": {
+        "Halt": 1500
+      }
+    },
+    {
+      "Section": "ClickOnDownloadXML",
+      "Coordinates": {
+        "InitialX": 1019,
+        "InitialY": 141
+      },
+      "InitialThreadSleeper": {
+        "Halt": 1500
+      },
+      "DoubleClickDelay": {
+        "Halt": 100
+      },
+      "AfterClickDelay": {
+        "Halt": 1000
+      }
+    },
+    {
+      "Section": "SimulateCopyEvent",
+      "InitialThreadSleeper": {
+        "Halt": 1500
+      }
+    },
+    {
+      "Section": "GetDataFromClipboard",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      }
+    },
+    {
+      "Section": "CopyFolderPath",
+      "Coordinates": {
+        "InitialX": 394,
+        "InitialY": 43
+      },
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      }
+    },
+    {
+      "Section": "SaveXMLFile",
+      "Coordinates": {
+        "InitialX": 569,
+        "InitialY": 442
+      },
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "AdditionalActions": [
+        {
+          "Description": "MOUSEEVENTF_LEFTDOWN",
+          "Type": "MouseDown",
+          "InitialX": 464,
+          "InitialY": 53
+        },
+        {
+          "Description": "MOUSEEVENTF_LEFTUP",
+          "Type": "MouseUp",
+          "InitialX": 464,
+          "InitialY": 54
+        }
+      ]
+    },
+    {
+      "Section": "GetCptAndIcdCodesAndDOBByXML",
+      "InitialThreadSleeper": {
+        "Halt": 50
+      }
+    },
+    {
+      "Section": "CloseXMLViewer",
+      "Coordinates": {
+        "InitialX": 1078,
+        "InitialY": 144
+      },
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "DoubleClickDelay": {
+        "Halt": 100
+      }
+    },
+    {
+      "Section": "CloseCEEDValidationWindow",
+      "Coordinates": {
+        "InitialX": 1289,
+        "InitialY": 44
+      },
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "DoubleClickDelay": {
+        "Halt": 100
+      }
+    },
+    {
+      "Section": "CopyPayerTypeForSelfPayer",
+      "Coordinates": {
+        "InitialX": 576,
+        "InitialY": 256
+      },
+      "InitialThreadSleeper": {
+        "Halt": 500
+      },
+      "CtrlADelay": {
+        "Halt": 500
+      },
+      "ContextMenuActions": {
+        "InitialX": 583,
+        "InitialY": 285
+      },
+      "AfterCopyDelay": {
+        "Halt": 5000
+      }
+    },
+    {
+      "Section": "MoveCursorToSearchBarOfDiagnosis",
+      "InitialThreadSleeper": {
+        "Halt": 1500
+      },
+      "Coordinates": {
+        "InitialX": 831,
+        "InitialY": 249
+      }
+    },
+    {
+      "Section": "ClickOnCurrentDiagnosis",
+      "InitialThreadSleeper": {
+        "Halt": 100
+      },
+      "Coordinates": {
+        "InitialX": 831,
+        "InitialY": 282
+      }
+    },
+    {
+      "Section": "ClickOnRowItemFromDignosisGrid",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 822,
+        "InitialY": 314
+      },
+      "DoubleClickDelay": {
+        "Halt": 500
+      }
+    },
+    {
+      "Section": "ClickOnAddDiagnosisButton",
+      "InitialThreadSleeper": {
+        "Halt": 500
+      },
+      "Coordinates": {
+        "InitialX": 748,
+        "InitialY": 543
+      }
+    },
+    {
+      "Section": "SearchDiagnosis",
+      "InitialThreadSleeper": {
+        "Halt": 100
+      }
+    },
+    {
+      "Section": "CloseDiagnosisTab",
+      "InitialThreadSleeper": {
+        "Halt": 500
+      },
+      "Coordinates": {
+        "InitialX": 968,
+        "InitialY": 172
+      }
+    },
+    {
+      "Section": "MimicRemoveDiagnosisClick",
+      "InitialThreadSleeper": {
+        "Halt": 800
+      },
+      "Coordinates": {
+        "InitialX": 938,
+        "InitialY": 635
+      }
+    },
+    {
+      "Section": "ClickOnLabOrders",
+      "InitialThreadSleeper": {
+        "Halt": 1500
+      },
+      "Coordinates": {
+        "InitialX": 1049,
+        "InitialY": 495
+      }
+    },
+    {
+      "Section": "ClickOnLabOrderSearchBar",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 481,
+        "InitialY": 162
+      }
+    },
+    {
+      "Section": "SearchCPT",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "KeyPressDelay": {
+        "Halt": 100
+      }
+    },
+    {
+      "Section": "ClickOnLabOrderGridRow",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 481,
+        "InitialY": 238
+      },
+      "DoubleClickDelay": {
+        "Halt": 500
+      }
+    },
+    {
+      "Section": "ClickOnLabOrdersAddMore",
+      "InitialThreadSleeper": {
+        "Halt": 500
+      },
+      "Coordinates": {
+        "InitialX": 1017,
+        "InitialY": 433
+      },
+      "AfterClickDelay": {
+        "Halt": 2000
+      }
+    },
+    {
+      "Section": "CloseLabOrders",
+      "InitialThreadSleeper": {
+        "Halt": 500
+      },
+      "Coordinates": {
+        "InitialX": 1234,
+        "InitialY": 64
+      }
+    },
+    {
+      "Section": "ScrollMouse",
+      "Coordinates": {
+        "InitialX": 289,
+        "InitialY": 408
+      },
+      "InitialThreadSleeper": {
+        "Halt": 500
+      },
+      "ScrollAction": {
+        "ScrollAmount": 120,
+        "NumScrolls": 22,
+        "ScrollDelay": 100
+      }
+    },
+    {
+      "Section": "ClickOnRadiologyOrders",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 1049,
+        "InitialY": 533
+      }
+    },
+    {
+      "Section": "ClickOnRadiologyOrderSearchBar",
+      "InitialThreadSleeper": {
+        "Halt": 500
+      },
+      "Coordinates": {
+        "InitialX": 481,
+        "InitialY": 168
+      }
+    },
+    {
+      "Section": "ClickOnRadiologyOrderGridRow",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 481,
+        "InitialY": 247
+      },
+      "DoubleClickDelay": {
+        "Halt": 500
+      }
+    },
+    {
+      "Section": "ClickOnRadiologyOrderAddMore",
+      "InitialThreadSleeper": {
+        "Halt": 500
+      },
+      "Coordinates": {
+        "InitialX": 1017,
+        "InitialY": 408
+      },
+      "AfterClickDelay": {
+        "Halt": 2000
+      }
+    },
+    {
+      "Section": "CloseRadiologyOrders",
+      "InitialThreadSleeper": {
+        "Halt": 500
+      },
+      "Coordinates": {
+        "InitialX": 1234,
+        "InitialY": 77
+      }
+    },
+    {
+      "Section": "ClickOnPlanNotesPlusSign",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 1012,
+        "InitialY": 288
+      }
+    },
+    {
+      "Section": "ClickOnHomeActiveMedicationsPlusSign",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 1012,
+        "InitialY": 320
+      }
+    },
+    {
+      "Section": "ClickOnCPOEPlusSign",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 1012,
+        "InitialY": 362
+      }
+    },
+    {
+      "Section": "ClickOnOrderSetPlusSign",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 1012,
+        "InitialY": 402
+      }
+    },
+    {
+      "Section": "ClickOnMedicationOrdersPlusSign",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 1012,
+        "InitialY": 443
+      }
+    },
+    {
+      "Section": "ClickOnLabOrdersPlusSign",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 1012,
+        "InitialY": 484
+      }
+    },
+    {
+      "Section": "ClickOnRadiologyOrdersPlusSign",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 1012,
+        "InitialY": 524
+      }
+    },
+    {
+      "Section": "ClickOnDeleteRadiology",
+      "InitialThreadSleeper": {
+        "Halt": 1500
+      },
+      "Coordinates": {
+        "InitialX": 1230,
+        "InitialY": 198
+      },
+      "DoubleClickDelay": {
+        "Halt": 800
+      }
+    },
+    {
+      "Section": "ClickOnRadiologyShowMoreBtn",
+      "InitialThreadSleeper": {
+        "Halt": 1500
+      },
+      "Coordinates": {
+        "InitialX": 1230,
+        "InitialY": 500
+      }
+    },
+    {
+      "Section": "ClickOnDeleteLabOrders",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 1230,
+        "InitialY": 214
+      }
+    },
+    {
+      "Section": "ClickOnLabOrderShowMoreBtn",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 1230,
+        "InitialY": 488
+      }
+    },
+    {
+      "Section": "ClickOnLabOrderShowLessBtn",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 1230,
+        "InitialY": 162
+      }
+    },
+    {
+      "Section": "FetchPatientMPI",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 127,
+        "InitialY": 161
+      },
+      "DoubleClickDelay": {
+        "Halt": 500
+      },
+      "RetrieveDataFromClipboard": {
+        "RetrieveDelay": {
+          "Halt": 1000
+        }
+      }
+    },
+    {
+      "Section": "CheckIfAlreadyExistsPopupShows",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 897,
+        "InitialY": 410
+      },
+      "ContextMenuActions": {
+        "InitialX": 748,
+        "InitialY": 507
+      },
+      "DragMouseRightToLeft": {
+        "Distance": 330
+      },
+      "AfterCopySleep": {
+        "Halt": 2000
+      }
+    },
+    {
+      "Section": "CheckIfHistoryRequiredPopupShows",
+      "InitialThreadSleeper": {
+        "Halt": 1000
+      },
+      "Coordinates": {
+        "InitialX": 897,
+        "InitialY": 410
+      },
+      "ContextMenuActions": {
+        "InitialX": 704,
+        "InitialY": 507
+      },
+      "DragMouseRightToLeft": {
+        "Distance": 330
+      },
+      "AfterCopySleep": {
+        "Halt": 2000
+      }
+    }
+  ]
+}
